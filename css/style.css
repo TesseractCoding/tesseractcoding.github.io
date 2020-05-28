@@ -64,12 +64,10 @@ body,
 .contact-social {
     list-style: none;
     display: inline-block;
-
     font-size: 3rem;
 }
 
 .contact-social li {
-    margin-right: 15px;
     padding-left: 0;
     display: inline-block;
 }
