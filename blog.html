@@ -2,324 +2,338 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Tesseract Coding</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/mdb.min.css" rel="stylesheet">
-  <link rel="icon" href="https://i.imgur.com/mx9xk7N.png" sizes="16x16" type="image/png">
-  <link href="css/style.min.css" rel="stylesheet">
-  <style type="text/css">
-    html,
-    body,
-    header,
-    .view {
-      height: 100%;
-    }
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Tesseract Coding</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="icon" href="https://i.imgur.com/mx9xk7N.png" sizes="16x16" type="image/png">
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <style type="text/css">
+        html,
+        body,
+        header,
+        .view {
+            height: 100%;
+        }
 
-    @media (max-width: 740px) {
-      html,
-      body,
-      header,
-      .view {
-        height: 1000px;
-      }
-    }
+        @media (max-width: 740px) {
+            html,
+            body,
+            header,
+            .view {
+                height: 1000px;
+            }
+        }
 
-    @media (min-width: 800px) and (max-width: 850px) {
-      html,
-      body,
-      header,
-      .view {
-        height: 650px;
-      }
-    }
-    @media (min-width: 800px) and (max-width: 850px) {
-              .navbar:not(.top-nav-collapse) {
-                  background: #1C2331!important;
-              }
-          }
-    @media (min-width: 992px){
-      .navbar-expand-lg .navbar-collapse {
-    display: flex!important;
-    flex-basis: auto;
-    justify-content: flex-end;
-    }
-    }
+        @media (min-width: 800px) and (max-width: 850px) {
+            html,
+            body,
+            header,
+            .view {
+                height: 650px;
+            }
+        }
 
-  </style>
+        @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1C2331 !important;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .navbar-expand-lg .navbar-collapse {
+                display: flex !important;
+                flex-basis: auto;
+                justify-content: flex-end;
+            }
+        }
+
+    </style>
 </head>
 
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+<!-- Navbar -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
     <div class="container">
 
-      <!-- Brand -->
-      <a class="navbar-brand" href="index.html" target="_blank">
-        <strong>Tesseract &middot; Coding</strong>
-      </a>
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html" target="_blank">
+            <strong>Tesseract &middot; Coding</strong>
+        </a>
 
-      <!-- Collapse -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <!-- Collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <!-- Links -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-        <!-- Right -->
-        <ul class="navbar-nav nav-flex-icons">
-          <li class="nav-item">
-            <a href="https://github.com/TesseractCoding" class="nav-link" target="_blank"><i class="fab fa-github mr-2"></i></a>
-          </li>
-		  <li class="nav-item">
-            <a href="https://www.linkedin.com/company/tesseract-coding" class="nav-link" target="_blank"><i class="fab fa-linkedin mr-2"></i></a>
-          </li>
-		  <li class="nav-item">
-            <a href="https://www.youtube.com/channel/UCcRRisfnnnoJeZYPmEhY-eg" class="nav-link" target="_blank"><i class="fab fa-youtube mr-2"></i></a>
-          </li>
-        </ul>
-      </div>
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Right -->
+            <ul class="navbar-nav nav-flex-icons">
+                <li class="nav-item">
+                    <a href="https://github.com/TesseractCoding" class="nav-link" target="_blank"><i
+                            class="fab fa-github mr-2"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/company/tesseract-coding" class="nav-link" target="_blank"><i
+                            class="fab fa-linkedin mr-2"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.youtube.com/channel/UCcRRisfnnnoJeZYPmEhY-eg" class="nav-link" target="_blank"><i
+                            class="fab fa-youtube mr-2"></i></a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </nav>
-  <!-- Navbar -->
+</nav>
+<!-- Navbar -->
 
-  <!-- Full Page Intro -->
-  <div class="view full-page-intro" style="background-image: url(img/blog.jpg); background-repeat: no-repeat; background-size: cover;">
+<!-- Full Page Intro -->
+<div class="view full-page-intro"
+     style="background-image: url(img/blog.jpg); background-repeat: no-repeat; background-size: cover;">
 
     <!-- Mask & flexbox options-->
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
 
-      <!-- Content -->
-      <div class="container">
+        <!-- Content -->
+        <div class="container">
 
-        <!--Grid row-->
-        <div class="row wow fadeIn">
+            <!--Grid row-->
+            <div class="row wow fadeIn">
 
-          <!--Grid column-->
-          <div class="col-md-6 mb-4 white-text text-center text-md-left">
+                <!--Grid column-->
+                <div class="col-md-6 mb-4 white-text text-center text-md-left">
 
-            <h1 class="display-4 font-weight-bold">Blogger's Week</h1>
+                    <h1 class="display-4 font-weight-bold">Blogger's Week</h1>
 
-            <hr class="hr-light">
+                    <hr class="hr-light">
 
-            <p>
-              <strong>Blogger's Week is a 7-Day Contest organized by Tesseract Coding where you will be writing and publishing blogs on Medium. Participate now and win exciting Prizes!</strong>
-            </p>
+                    <p>
+                        <strong>Blogger's Week is a 7-Day Contest organized by Tesseract Coding where you will be
+                            writing and publishing blogs on Medium. Participate now and win exciting Prizes!</strong>
+                    </p>
 
-            <a target="_blank" href="https://forms.gle/oMrfPm9uwffeSf5s8" class="btn btn-indigo btn-lg">Register Now!
-              <i class="fas fa-user ml-2"></i>
-            </a>
+                    <a target="_blank" href="https://forms.gle/oMrfPm9uwffeSf5s8" class="btn btn-indigo btn-lg ">
+                        <i class="fas fa-user ml-2 btnlAlign"></i>Register Now!
+                    </a>
 
-          </div>
-          <!--Grid column-->
+                </div>
+                <!--Grid column-->
 
-          <!--Grid column-->
-          <div class="col-md-6 col-xl-5 mb-4">
+                <!--Grid column-->
+                <div class="col-md-6 col-xl-5 mb-4">
 
-            <div class="card" style="background: transparent; box-shadow: none;">
-              <div class="card-body" style="display: flex; justify-content: center;">
-                <img src="https://i.imgur.com/mx9xk7N.png" style="max-height: 300px;" alt="tesseract-logo">
-              </div>
-            </div>
-
-            </div> 
-
-          </div>
-          <!--Grid column-->
+                    <div class="card" style="background: transparent; box-shadow: none;">
+                        <div class="card-body" style="display: flex; justify-content: center;">
+                            <img src="https://i.imgur.com/mx9xk7N.png" style="max-height: 300px;" alt="tesseract-logo">
+                        </div>
+                    </div>
+                </div>
+            <!--Grid column-->
 
         </div>
         <!--Grid row-->
-
-      </div>
-      <!-- Content -->
 
     </div>
-    <!-- Mask & flexbox options-->
+    <!-- Content -->
 
-  </div>
-  <!-- Full Page Intro -->
+</div>
+<!-- Mask & flexbox options-->
 
-  <!--Main layout-->
-  <main>
+</div>
+<!-- Full Page Intro -->
+
+<!--Main layout-->
+<main>
     <div class="container">
 
-      <!--Section: Main info-->
-      <section class=" wow fadeIn" style="margin-top: 80px;">
+        <!--Section: Main info-->
+        <section class=" wow fadeIn" style="margin-top: 80px;">
 
-        <!--Grid row-->
-        <div class="row">
-
-          <!--Grid column-->
-          <div class="col-md-6 mb-4">
-
-            <img src="img/have-it.jpg" class="img-fluid z-depth-1-half">
-
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-6 mb-4">
-
-            <!-- Main heading -->
-            <h3 class="h3 mb-3">What is Blogger's Week?</h3>
-            <p>The main purpose of this event is to up-skill yourself with Blogging and help student developers across the globe to learn new technologies.</p>
-            <p>What are you going to write about? Well, we have five domains specifically:</p>
-			<ul>
-			<li> Artificial Intelligence and Machine Learning </li>
-
-            <li> Web Development </li>
-
-            <li> Cyber Security </li>
-
-            <li> Cloud Computing & DevOps </li>
-
-            <li> Android/iOS Dev </li>
-
-            <li> Your domain of choice </li>
-			</ul>
-            <!-- Main heading -->
-
-            <hr>
-            
-            <p> We will be selecting winners from each of these Domains who will be entitled for "Certificate of Appreciation" from Microsoft Student Partners and invitation to be a part of this ever-growing community. The winning blogs also get a chance to be featured on our Medium Publication. </p>
-
-          </div>
-          <!--Grid column-->
-
-        </div>
-        <!--Grid row-->
-
-      </section>
-      <!--Section: Main info-->
-
-      <hr class="my-5">
-
-      <!--Section: Main features & Quick Start-->
-      <section>
-
-        <h3 class="h3 text-center mb-5">About Tesseract Coding</h3>
-
-        <!--Grid row-->
-        <div class="row wow fadeIn">
-
-          <!--Grid column-->
-          <div class="col-lg-6 col-md-12 px-4">
-
-            <!--First row-->
+            <!--Grid row-->
             <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-code fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="feature-title">Code</h5>
-                <p class="grey-text"> We help you learn to code, and grow as a developer.</p>
-              </div>
+
+                <!--Grid column-->
+                <div class="col-md-6 mb-4">
+
+                    <img src="img/have-it.jpg" class="img-fluid z-depth-1-half" alt="">
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-6 mb-4">
+
+                    <!-- Main heading -->
+                    <h3 class="h3 mb-3">What is Blogger's Week?</h3>
+                    <p>The main purpose of this event is to up-skill yourself with Blogging and help student developers
+                        across the globe to learn new technologies.</p>
+                    <p>What are you going to write about? Well, we have five domains specifically:</p>
+                    <ul>
+                        <li> Artificial Intelligence and Machine Learning</li>
+
+                        <li> Web Development</li>
+
+                        <li> Cyber Security</li>
+
+                        <li> Cloud Computing & DevOps</li>
+
+                        <li> Android/iOS Dev</li>
+
+                        <li> Your domain of choice</li>
+                    </ul>
+                    <!-- Main heading -->
+
+                    <hr>
+
+                    <p> We will be selecting winners from each of these Domains who will be entitled for "Certificate of
+                        Appreciation" from Microsoft Student Partners and invitation to be a part of this ever-growing
+                        community. The winning blogs also get a chance to be featured on our Medium Publication. </p>
+
+                </div>
+                <!--Grid column-->
+
             </div>
-            <!--/First row-->
+            <!--Grid row-->
 
-            <div style="height:30px"></div>
+        </section>
+        <!--Section: Main info-->
 
-            <!--Second row-->
-            <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-book fa-2x blue-text"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="feature-title">Blogs</h5>
-                <p class="grey-text"> We teach you how to use different technologies to create your next big project! 
-                </p>
-              </div>
+        <hr class="my-5">
+
+        <!--Section: Main features & Quick Start-->
+        <section>
+
+            <h3 class="h3 text-center mb-5">About Tesseract Coding</h3>
+
+            <!--Grid row-->
+            <div class="row wow fadeIn">
+
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 px-4">
+
+                    <!--First row-->
+                    <div class="row">
+                        <div class="col-1 mr-3">
+                            <i class="fas fa-code fa-2x indigo-text"></i>
+                        </div>
+                        <div class="col-10">
+                            <h5 class="feature-title">Code</h5>
+                            <p class="grey-text"> We help you learn to code, and grow as a developer.</p>
+                        </div>
+                    </div>
+                    <!--/First row-->
+
+                    <div style="height:30px"></div>
+
+                    <!--Second row-->
+                    <div class="row">
+                        <div class="col-1 mr-3">
+                            <i class="fas fa-book fa-2x blue-text"></i>
+                        </div>
+                        <div class="col-10">
+                            <h5 class="feature-title">Blogs</h5>
+                            <p class="grey-text"> We teach you how to use different technologies to create your next big
+                                project!
+                            </p>
+                        </div>
+                    </div>
+                    <!--/Second row-->
+
+                    <div style="height:30px"></div>
+
+                    <!--Third row-->
+                    <div class="row">
+                        <div class="col-1 mr-3">
+                            <i class="fas fa-graduation-cap fa-2x cyan-text"></i>
+                        </div>
+                        <div class="col-10">
+                            <h5 class="feature-title">Workshops</h5>
+                            <p class="grey-text"> We provide high quality, hands-on training for everyone ranging from
+                                beginner to pro!</p>
+                        </div>
+                    </div>
+                    <!--/Third row-->
+
+                </div>
+                <!--/Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-6 mb-4">
+
+                    <img src="https://744025.smushcdn.com/1245953/wp-content/uploads/2019/05/safar-safarov-1509081-unsplash.jpg?lossy=1&strip=1&webp=1"
+                         class="img-fluid z-depth-1-half" alt="Tesseract Coding">
+
+                </div>
+                <!--/Grid column-->
+
             </div>
-            <!--/Second row-->
+            <!--/Grid row-->
 
-            <div style="height:30px"></div>
+        </section>
+        <!--Section: Main features & Quick Start-->
 
-            <!--Third row-->
-            <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-graduation-cap fa-2x cyan-text"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="feature-title">Workshops</h5>
-                <p class="grey-text"> We provide high quality, hands-on training for everyone ranging from beginner to pro!</p>
-              </div>
-            </div>
-            <!--/Third row-->
+        <hr class="my-5">
 
-          </div>
-          <!--/Grid column-->
+        <!--Section: Not enough-->
+    </div>
+</main>
+<!--Main layout-->
 
-          <!--Grid column-->
-           <div class="col-md-6 mb-4">
-
-            <img src="https://744025.smushcdn.com/1245953/wp-content/uploads/2019/05/safar-safarov-1509081-unsplash.jpg?lossy=1&strip=1&webp=1" class="img-fluid z-depth-1-half" alt="Tesseract Coding">
-
-          </div>
-          <!--/Grid column-->
-
-        </div>
-        <!--/Grid row-->
-
-      </section>
-      <!--Section: Main features & Quick Start-->
-
-      <hr class="my-5">
-
-      <!--Section: Not enough-->
-      
-  </main>
-  <!--Main layout-->
-
-  <!--Footer-->
-  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+<!--Footer-->
+<footer class="page-footer text-center font-small mt-4 wow fadeIn">
 
 
     <hr class="my-4">
 
     <!-- Social icons -->
     <div class="pb-4">
-      <a href="https://github.com/TesseractCoding" target="_blank">
-        <i class="fab fa-github mr-3"></i>
-      </a>
-	  <a href="https://www.linkedin.com/company/tesseract-coding" target="_blank">
-        <i class="fab fa-linkedin mr-3"></i>
-      </a>
-	  <a href="https://www.youtube.com/channel/UCcRRisfnnnoJeZYPmEhY-eg" target="_blank">
-        <i class="fab fa-youtube mr-3"></i>
-      </a>
+        <ul class="contact-social">
+            <li><a target="_blank" rel="noopener" href="https://github.com/TesseractCoding" title="GitHub"><i
+                    class="fab fa-github fa-xs"></i></a></li>
+            <li><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/tesseract-coding"
+                   title="Linkedin"><i
+                    class="fab fa-linkedin fa-xs"></i></a></li>
+            <li><a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCcRRisfnnnoJeZYPmEhY-eg"
+                   title="Youtube"><i class="fab fa-youtube fa-xs"></i></a></li>
+            <li><a target="_blank" rel="noopener" href="https://t.me/tesseractcoding"
+                   title="Youtube"><i class="fab fa-telegram fa-xs"></i></a></li>
+        </ul>
     </div>
-	
+
     <!-- Social icons -->
 
     <!--Copyright-->
     <div class="footer-copyright py-3">
-      © 2020 Copyright:
-      <a href="#" target="_blank"> Tesseract Coding </a>
+        © 2020 Copyright:
+        <a href="#" target="_blank"> Tesseract Coding </a>
     </div>
     <!--/.Copyright-->
 
-  </footer>
-  <!--/.Footer-->
+</footer>
+<!--/.Footer-->
 
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <!-- Initializations -->
-  <script type="text/javascript">
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Initializations -->
+<script type="text/javascript">
     // Animations initialization
     new WOW().init();
-  </script>
+</script>
 </body>
 
 </html>
