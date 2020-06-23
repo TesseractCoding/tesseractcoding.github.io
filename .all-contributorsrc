@@ -26,7 +26,6 @@
       ]
     },
     {
-
       "login": "VedantKhairnar",
       "name": "Vedant Khairnar",
       "avatar_url": "https://avatars1.githubusercontent.com/u/42309779?v=4",
@@ -34,9 +33,9 @@
       "contributions": [
         "code",
         "design"
-       ]
-      },
-      {
+      ]
+    },
+    {
       "login": "HarshCasper",
       "name": "Harsh Bardhan Mishra",
       "avatar_url": "https://avatars1.githubusercontent.com/u/47351025?v=4",
@@ -44,7 +43,6 @@
       "contributions": [
         "projectManagement",
         "code"
-
       ]
     }
   ],
