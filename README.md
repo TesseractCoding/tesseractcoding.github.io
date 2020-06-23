@@ -15,7 +15,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://tesseractcoding.github.io/"><img src="https://avatars1.githubusercontent.com/u/42010556?v=4" width="100px;" alt=""/><br /><sub><b>Syed Farhan</b></sub></a><br /><a href="#projectManagement-born-2learn" title="Project Management">📆</a> <a href="https://github.com/TesseractCoding/TesseractCoding.github.io/commits?author=born-2learn" title="Code">💻</a></td>
     <td align="center"><a href="https://www.iamprins.com"><img src="https://avatars2.githubusercontent.com/u/54654484?v=4" width="100px;" alt=""/><br /><sub><b>Ricardo Prins</b></sub></a><br /><a href="#projectManagement-ricardoprins" title="Project Management">📆</a> <a href="https://github.com/TesseractCoding/TesseractCoding.github.io/commits?author=ricardoprins" title="Code">💻</a></td>
+
+    <td align="center"><a href="https://vedantkhairnar.ml/"><img src="https://avatars1.githubusercontent.com/u/42309779?v=4" width="100px;" alt=""/><br /><sub><b>Vedant Khairnar</b></sub></a><br /><a href="https://github.com/TesseractCoding/TesseractCoding.github.io/commits?author=VedantKhairnar" title="Code">💻</a> <a href="#design-VedantKhairnar" title="Design">🎨</a></td>
+
     <td align="center"><a href="http://harshbardhanmishra.me"><img src="https://avatars1.githubusercontent.com/u/47351025?v=4" width="100px;" alt=""/><br /><sub><b>Harsh Bardhan Mishra</b></sub></a><br /><a href="#projectManagement-HarshCasper" title="Project Management">📆</a> <a href="https://github.com/TesseractCoding/TesseractCoding.github.io/commits?author=HarshCasper" title="Code">💻</a></td>
+
   </tr>
 </table>
 
