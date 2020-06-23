@@ -1,6 +1,6 @@
 # TesseractCoding.github.io
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Official Website for Tesseract Coding ❤️
 
@@ -19,6 +19,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://harshbardhanmishra.me"><img src="https://avatars1.githubusercontent.com/u/47351025?v=4" width="100px;" alt=""/><br /><sub><b>Harsh Bardhan Mishra</b></sub></a><br /><a href="#projectManagement-HarshCasper" title="Project Management">📆</a> <a href="https://github.com/TesseractCoding/TesseractCoding.github.io/commits?author=HarshCasper" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/vanshika-garg-9297a3188/"><img src="https://avatars3.githubusercontent.com/u/51471702?v=4" width="100px;" alt=""/><br /><sub><b>Vanshika Garg</b></sub></a><br /><a href="#design-Vanshikagarg17" title="Design">🎨</a> <a href="#eventOrganizing-Vanshikagarg17" title="Event Organizing">📋</a></td>
     <td align="center"><a href="http://debanjanab.github.io"><img src="https://avatars1.githubusercontent.com/u/37831166?v=4" width="100px;" alt=""/><br /><sub><b>Debanjona Bhattacharjya</b></sub></a><br /><a href="#design-DEBANJANAB" title="Design">🎨</a> <a href="#eventOrganizing-DEBANJANAB" title="Event Organizing">📋</a></td>
+    <td align="center"><a href="http://vinamramunot-tech.github.io"><img src="https://avatars2.githubusercontent.com/u/56406734?v=4" width="100px;" alt=""/><br /><sub><b>Vinamra Munot</b></sub></a><br /><a href="#projectManagement-vinamramunot-tech" title="Project Management">📆</a> <a href="https://github.com/TesseractCoding/TesseractCoding.github.io/commits?author=vinamramunot-tech" title="Code">💻</a></td>
   </tr>
 </table>
 
