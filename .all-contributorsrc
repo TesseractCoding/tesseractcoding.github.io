@@ -24,6 +24,16 @@
         "projectManagement",
         "code"
       ]
+    },
+    {
+      "login": "VedantKhairnar",
+      "name": "Vedant Khairnar",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/42309779?v=4",
+      "profile": "https://vedantkhairnar.ml/",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
