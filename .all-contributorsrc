@@ -64,6 +64,16 @@
         "design",
         "eventOrganizing"
       ]
+    },
+    {
+      "login": "vinamramunot-tech",
+      "name": "Vinamra Munot",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/56406734?v=4",
+      "profile": "http://vinamramunot-tech.github.io",
+      "contributions": [
+        "projectManagement",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
